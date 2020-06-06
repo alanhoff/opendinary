@@ -1,0 +1,15 @@
+[package]
+name = "opendinary"
+version = "0.1.0"
+authors = ["Alan Hoffmeister <alanhoffmeister@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+actix-web = "2"
+actix-rt = "1"
+serde_derive = "1.0.111"
+toml = "0.5.6"
+serde = "1.0.111"
+percent-encoding = "2.1.0"
+reqwest = "0.10.6"
+image = "0.23.4"
